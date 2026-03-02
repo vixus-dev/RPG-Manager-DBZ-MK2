@@ -69,7 +69,7 @@ public class RPGManager extends JFrame {
     public RPGManager() {
         setTitle("RPG Manager");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(1000, 600); // Aumentei um pouco a largura para as novas colunas
+        setSize(1000, 600); 
         setLocationRelativeTo(null);
 
         JPanel painel = criarPainelUnificado();
@@ -125,7 +125,6 @@ public class RPGManager extends JFrame {
             janelaDeLog.adicionarMensagem(mensagem);
         }
         
-        // Para remover os pop-ups, basta apagar ou comentar a linha abaixo.
         JOptionPane.showMessageDialog(this, mensagem);
     }
     
@@ -171,7 +170,6 @@ public class RPGManager extends JFrame {
         
         turnOrderBar = new JLabel("Calculando ordem de turno...", JLabel.CENTER); // Agora é um JLabel
         turnOrderBar.setFont(new Font("Segoe UI", Font.BOLD, 14));
-        // Não precisamos mais de .setEditable(false)
         painel.add(turnOrderBar, BorderLayout.NORTH);
 
         modeloTabela = new DefaultTableModel(new String[]{"Tipo", "Nome", "HP", "ATK", "Energia/Bateria", "Velocidade", "Transformação", "Ampliação", "Custo p/ Turno" ,"Pontos Forma"}, 0);
@@ -263,7 +261,7 @@ public class RPGManager extends JFrame {
 
         if (emClash) {
             StringBuilder sb = new StringBuilder("<html><div style='text-align: center; color:purple;'>CLASH: ");
-            Personagem ativo = getPersonagemAtivo(); // Usa o novo método
+            Personagem ativo = getPersonagemAtivo();
             
             sb.append("<b style='color:red;'><u>&nbsp;Turno de ").append(ativo.getNome()).append("&nbsp;</u></b>");
             sb.append(" (Restam ").append(turnosRestantesClash).append(" turnos)");
@@ -280,7 +278,6 @@ public class RPGManager extends JFrame {
             return comparacaoVelocidade;
         });
 
-        // --- NOVA LÓGICA PARA CONSTRUIR A STRING COM HTML ---
         StringBuilder sb = new StringBuilder("<html><div style='text-align: center;'>");
         for (int i = 0; i < listaDeTurnos.size(); i++) {
             com.Vixus.Library.Personagem p = listaDeTurnos.get(i);
@@ -437,7 +434,6 @@ public class RPGManager extends JFrame {
     	                }
     	                i.setAmpliacoesDisponiveis(aprendidas);
     	            }
-    	         // --- NOVA SEÇÃO: Vincular Técnicas ---
     	            if (i.getNomesTecnicas() != null) {
     	                List<Tecnica> aprendidas = new ArrayList<>();
     	                for (String nomeTecnica : i.getNomesTecnicas()) {
@@ -492,7 +488,6 @@ public class RPGManager extends JFrame {
 
             String ampliacaoInfo = "-";
             if (i.getGrauAmpliacaoAtual() != null) {
-                // CORREÇÃO: Usa o novo método para pegar o nome do grau da ampliação
                 ampliacaoInfo = i.getGrauAmpliacaoAtual().getNome();
             }
 
@@ -637,7 +632,6 @@ public class RPGManager extends JFrame {
                 String novoNome = nomeBase + " " + (contadorExistente + 1);
                 novoInimigo.setNome(novoNome); // Usa o novo setter que criamos
 
-                // O resto da lógica continua como antes
                 novoInimigo.inicializarAposLoad();
                 
                 if (novoInimigo.getNomesTecnicas() == null || novoInimigo.getNomesTecnicas().isEmpty()) {
@@ -686,12 +680,7 @@ public class RPGManager extends JFrame {
 
         popup.setVisible(true);
     }
-
-
-    /**
-     * Método auxiliar para vincular habilidades a um ÚNICO inimigo recém-criado.
-     * Evita ter que rodar o 'vincularHabilidades()' em toda a lista de personagens.
-     */
+	
     private void vincularHabilidadesParaInimigo(Inimigo inimigo) {
         if (inimigo.getNomesTransformacoes() != null) {
             List<Transformacao> aprendidas = new ArrayList<>();
@@ -1225,10 +1214,6 @@ public class RPGManager extends JFrame {
             gson.toJson(data, writer);
             writer.close();
             
-            // Opcional: um feedback visual de que o jogo foi salvo.
-            // Podemos remover se ficar repetitivo.
-            // JOptionPane.showMessageDialog(this, "Inventário salvo com sucesso!");
-
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "Erro ao salvar o jogo: " + e.getMessage(), "Erro de Salvamento", JOptionPane.ERROR_MESSAGE);
             e.printStackTrace();
@@ -2376,7 +2361,7 @@ public class RPGManager extends JFrame {
     public static void main(String[] args) {
     	// Esta linha DEVE ser a primeira a ser executada para que o tema
         // seja aplicado a todos os componentes que vierem depois.
-    	//com.formdev.flatlaf.FlatDarkLaf.setup();
+    	//com.formdev.flatlaf.FlatDarkLaf.setup(); <- modo escuro se for necessario
         // Garante que a interface gráfica seja criada e atualizada na thread de eventos da Swing (Event Dispatch Thread).
         SwingUtilities.invokeLater(() -> {
             RPGManager app = new RPGManager();
@@ -2388,4 +2373,5 @@ public class RPGManager extends JFrame {
             
         });
     }
+
 }
