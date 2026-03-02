@@ -1,15 +1,10 @@
 # RPG Manager Dragon Ball Z [MK2]
 
 Segunda versão do RPG Manager, uma ferramenta desktop desenvolvida em **Java Swing** para auxiliar mestres de RPG de mesa a gerenciar personagens, combates e recursos em tempo real — com temática **Dragon Ball Z**.
-
 Esta versão é a evolução direta do [MK1](https://github.com/vixus-dev/RPG-Manager-DBZ-MK1), com arquitetura completamente refatorada e diversas novas mecânicas de combate.
-
----
-
-# ⚔️ O que mudou do MK1 para o MK2
-
+```
+# ⚔️ O que mudou do MK1 para o MK2?
 O MK1 foi uma prova de conceito onde toda a lógica estava concentrada em uma única classe. O objetivo era validar as ideias centrais rapidamente, sem preocupação com organização do código.
-
 O MK2 representa a maturação do projeto:
 
 |                                            | MK1|                               | MK2 |
@@ -29,9 +24,9 @@ O MK2 representa a maturação do projeto:
 | Graus de ampliação            | Não tem                               | ✅ `GrauAmpliacao` com múltiplos níveis |
 | Cores por transformação       | Não tem                               | ✅ Configurável via `cores.json` |
 | Bestiário                     | Não tem                               | ✅ `Bestiario.json` com inimigos pré-definidos |
-
+```
 ---
-
+```
 ## 🗂️ Estrutura do Projeto
 src/
 ├── com/Vixus/inc/          # Interface Gráfica (Swing)
@@ -65,6 +60,7 @@ Resources/
     ├── itens.json
     └── cores.json           # Cores personalizadas por transformação/ampliação
 ```
+```
 
 ---
 
@@ -83,7 +79,7 @@ Resources/
 - Janela de Log dedicada com histórico de todas as ações de combate
 - Editor de personagens e editor de inimigos separados
 - Persistência de dados em JSON via biblioteca Gson
-
+```
 
 ## 🛠️ Tecnologias
 
