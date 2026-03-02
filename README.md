@@ -60,9 +60,10 @@ Resources/
     ├── itens.json
     └── cores.json           # Cores personalizadas por transformação/ampliação
 ```
-```
 
 ---
+
+```
 
 ## ✨ Funcionalidades
 
