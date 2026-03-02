@@ -1,0 +1,118 @@
+#nome;custo;qtdDados;lados;turnosParaCarregar;imbloqueavel;isAOE
+# --- TÉCNICAS COMUNS ---
+Soco;10;1;10;0;false;false
+Arremesso;5;1;2;0;false;false
+Soco de Garra;25;5;6;0;false;false
+Soco V2;15;2;8;0;false;false
+Soco V3;20;3;6;0;false;false
+Soco com Hamon;30;1;30;0;false;false
+Ki Blast;10;1;8;0;false;true
+Kiai;30;2;15;0;false;true
+Tsuihikidan;35;1;30;0;false;false
+Duplo Tsuihikidan;70;2;30;0;false;true
+Voleio Rápido;30;5;5;0;false;false
+Raio de DEDO;25;1;20;0;false;false
+Dirty Fireworks;30;1;25;0;false;false
+Olho do Demônio;25;1;20;0;false;true
+Galick Ho;45;2;20;0;false;false
+Canhão da Morte;45;2;20;0;false;false
+Lâminas da Verdade;45;3;15;0;false;true
+Tayou-Ken;50;0;0;2;false;true
+
+# --- TÉCNICAS RARAS ---
+Soco Meteoro;20;2;20;0;false;false
+Lâmina de Ki;90;3;30;0;false;false
+Contra Ataque;100;1;100;0;false;false
+Quebra ossos;70;6;12;0;false;false
+Grande Pancada;150;3;50;0;false;false
+Soco em Alta Pressão;120;10;10;0;false;false
+Perseguição em Alta Velocidade;120;8;15;0;true;false
+Perseguição em Super Velocidade;160;10;15;0;true;false
+Ki Blast V2;90;4;20;0;false;true
+Blitz de Fótons;60;5;15;0;false;true
+Grande Rajada de KI;80;10;8;0;false;true
+Rajada de KI Massiva;130;12;10;0;false;true
+Lâminas da Justiça;200;9;25;0;false;true
+Kikouhou;100;1;80;0;false;true
+Novo Kikouhou;140;1;120;0;false;true
+Voleio de Perfuração;110;4;30;0;false;false
+Kamehameha;150;3;40;0;false;false
+Galick gun;180;4;40;0;false;true
+Canhão da Inocência;180;5;35;0;false;true
+Espada do Futuro;110;3;40;0;false;false
+Mafuba;50;0;0;1;true;false
+Teletransporte;200;0;0;2;false;false
+Lua Artificial;400;0;0;0;false;false
+Transformar em doce;400;0;0;0;true;false
+
+# --- TÉCNICAS ÉPICAS ---
+Soco Perfeito!;1;10;1;0;false;false
+Ki Blast Perfeita!;1;80;1;0;false;true
+Impacto Estelar;200;4;40;0;false;false
+Soco de Pressão;280;10;25;0;false;false
+Jogo Perfeito!;220;10;20;0;true;false
+Pancada Gigantesca;350;8;45;0;false;false
+Pancada Colossal;450;8;50;0;true;false
+Perseguição em Hiper Velocidade;350;15;20;0;true;false
+Ataque de YAMARO;300;7;40;0;false;true
+Makankosappo;200;1;250;2;false;false
+Zona Explosiva;220;5;40;0;false;true
+Kienzan;180;1;200;0;false;false
+SS Bombardeio Mortal;150;20;8;0;false;true
+Canhão Crasher;200;8;25;0;false;true
+Disco da Morte;250;1;300;0;false;false
+Chama Maligna;210;7;30;0;false;true
+Punho do Dragão;280;7;40;0;false;false
+Fantasma Kamikaze;200;8;25;2;false;false
+Super Fantasma Kamikaze;450;15;25;2;false;true
+Kamehameha Xmult;280;4;60;2;false;false
+Kamehameha com Teletransporte;400;5;60;0;true;false
+S.Kamehameha;300;6;40;0;false;false
+U.Kamehameha;500;8;50;2;false;true
+Kamehameha Rose;400;7;50;0;false;false
+Gamma Burst Flash;380;8;40;2;false;false
+Planet Burst;300;3;100;0;false;true
+Supernova;500;6;80;2;true;true
+Ataque Big Bang;300;8;35;2;false;true
+Final Flash;400;5;70;2;false;false
+Gamma Buster;320;10;30;0;false;false
+Omega Blaster;450;12;30;2;false;true
+Genki-Dama;400;10;40;3;true;true
+Explosão Final;100;1;150;0;false;true
+Esfera Mortal;380;8;40;0;false;true
+Esfera Mortal de Rancor;500;10;50;2;true;true
+Big-Bang Kamehameha;420;10;35;0;false;true
+Final Kamehameha;450;12;30;0;false;true
+Galactic Fireworks;300;1;350;0;false;false
+Donut Galáctico;250;15;15;2;true;false
+Teletransporte Instantaneo;500;0;0;0;false;false
+
+# --- TÉCNICAS LENDÁRIAS ---
+Super Genki-Dama;1200;15;50;3;true;true
+Ataque de Espada Dimensional;900;10;80;0;true;false
+Iluminação Cósmica;1000;20;45;0;false;true
+Devorador de Estrelas;1500;15;100;2;false;true
+Biden Blast;1400;15;80;2;false;false
+Ataque de Extinção;1400;25;50;3;false;true
+Stardust Breaker;1800;1;1800;2;true;false
+Quebra Deuses;1800;20;80;2;false;false
+Sol Cruel!;2000;10;150;2;true;true
+Super Punho do Dragão;1600;15;90;0;true;false
+Sword of Hope;1000;100;1;0;true;true
+Sacrifício Sísmico;1500;0;0;0;true;false
+
+# --- TÉCNICAS MÍTICAS ---
+Quebra Anjos;5000;25;200;2;true;false
+Os Céus Caem;8000;50;250;3;true;true
+Distorção de Realidade;800;0;0;0;false;false
+
+# --- TÉCNICAS NÃO CATEGORIZADAS ---
+Itens Pequenos;5;1;2;0;false;false
+Itens médios;5;2;2;0;false;false
+Itens Grandes;5;3;2;0;false;false
+Ataque de Moto;10;1;40;0;false;false
+Agarrar;5;1;1;0;false;false
+Absorver Energia;10;0;0;0;false;false
+Campo de Força;10;0;0;0;false;true
+Campo Perfeito!;1;0;0;0;false;false
+Kiai Perfeito!;1;0;0;0;false;true

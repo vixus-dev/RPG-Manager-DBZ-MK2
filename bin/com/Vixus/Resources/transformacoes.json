@@ -1,0 +1,248 @@
+[
+  {
+    "nome": "Pizza",
+    "subFormas": [
+      { "nome": "Super Pizza", "multiplicador": 100000.0, "custoPorTurno": 0 }
+    ]
+  },
+  {
+    "nome": "Poder da Esfera",
+    "subFormas": [
+      { "nome": "1 Esfera", "multiplicador": 2.5, "custoPorTurno": 1 }
+    ]
+  },
+  {
+    "nome": "Super Sayajin",
+    "subFormas": [
+      { "nome": "SSJ", "multiplicador": 10.0, "custoPorTurno": 1},
+      { "nome": "ASSJ", "multiplicador": 12.0, "custoPorTurno": 2, "maestriaNecessaria": 1 },
+      { "nome": "USSJ", "multiplicador": 14.0, "custoPorTurno": 3, "maestriaNecessaria": 2 },
+      { "nome": "MSSJ", "multiplicador": 12.5, "custoPorTurno": 0, "maestriaNecessaria": 3 }
+    ]
+  },
+  {
+    "nome": "Super Sayajin 2",
+    "subFormas": [
+      { "nome": "SSJ 2", "multiplicador": 20.0, "custoPorTurno": 2 },
+      { "nome": "MSSJ 2", "multiplicador": 22.5, "custoPorTurno": 1, "maestriaNecessaria": 1 }
+    ]
+  },
+  {
+    "nome": "Super Sayajin 3",
+    "subFormas": [
+      { "nome": "SSJ 3 (Suprimido)", "multiplicador": 40.0, "custoPorTurno": 5 },
+      { "nome": "SSJ 3 (Poder Total)", "multiplicador": 80.0, "custoPorTurno": 10, "maestriaNecessaria": 1 }
+    ]
+  },
+  {
+    "nome": "Super Sayajin 4",
+    "subFormas": [
+      { "nome": "SSJ 4", "multiplicador": 100.0, "custoPorTurno": 8 },
+      { "nome": "SSJ 4 Full Power", "multiplicador": 110.0, "custoPorTurno": 10, "maestriaNecessaria": 1 },
+      { "nome": "SSJ 4 Limit break", "multiplicador": 300.0, "custoPorTurno": 25, "maestriaNecessaria": 5 }
+    ]
+  },
+  {
+    "nome": "Super Sayajin God",
+    "subFormas": [
+      { "nome": "SSJG", "multiplicador": 125.0, "custoPorTurno": 20 }
+    ]
+  },
+  {
+    "nome": "Super Sayajin Blue",
+    "subFormas": [
+      { "nome": "SSJB", "multiplicador": 150.0, "custoPorTurno": 15 ,"maestriaNecessaria": 0},
+      { "nome": "SSJB Evolution", "multiplicador": 225.0, "custoPorTurno": 20, "maestriaNecessaria": 2 }
+    ]
+  },
+  {
+    "nome": "SSJB Tier 2",
+    "subFormas": [
+      { "nome": "SSJBSSJ", "multiplicador": 175.0, "custoPorTurno": 15 },
+      { "nome": "SSJB 2", "multiplicador": 230.0, "custoPorTurno": 20, "maestriaNecessaria": 1 },
+      { "nome": "SSJB 3", "multiplicador": 320.0, "custoPorTurno": 35, "maestriaNecessaria": 2 }
+    ]
+  },
+  {
+    "nome": "Instinto Superior",
+    "subFormas": [
+      { "nome": "UI (Presságio)", "multiplicador": 300.0, "custoPorTurno": 30 },
+      { "nome": "UI (Completo)", "multiplicador": 325.0, "custoPorTurno": 35, "maestriaNecessaria": 1 },
+      { "nome": "UI (Aperfeiçoado)", "multiplicador": 350.0, "custoPorTurno": 35, "maestriaNecessaria": 2 }
+    ]
+  },
+  {
+    "nome": "Ultra Ego",
+    "subFormas": [
+      { "nome": "UE (Suprimido)", "multiplicador": 250.0, "custoPorTurno": 25 },
+      { "nome": "UE ", "multiplicador": 300.0, "custoPorTurno": 30, "maestriaNecessaria": 1 },
+      { "nome": "UE (All Out)", "multiplicador": 325.0, "custoPorTurno": 32, "maestriaNecessaria": 2 }
+    ]
+  },
+  {
+    "nome": "Fúria Lendária",
+    "subFormas": [
+      { "nome": "SSJ Fury", "multiplicador": 50, "custoPorTurno": 3 },
+      { "nome": "LSSJG", "multiplicador": 200, "custoPorTurno": 15, "maestriaNecessaria": 1 },
+      { "nome": "Berseker", "multiplicador": 400.0, "custoPorTurno": 50, "maestriaNecessaria": 2 }
+    ]
+  },
+  {
+    "nome": "Caminho Kai",
+    "subFormas": [
+      { "nome": "SSJ 2 (Aperfeiçoado)", "multiplicador": 25, "custoPorTurno": 1 },
+      { "nome": "Potencial Liberado", "multiplicador": 50, "custoPorTurno": 3, "maestriaNecessaria": 1 },
+      { "nome": "Beast", "multiplicador": 375.0, "custoPorTurno": 40, "maestriaNecessaria": 2 }
+    ]
+  },
+  {
+    "nome": "Caminho Viajante",
+    "subFormas": [
+      { "nome": "SSJRage", "multiplicador": 25, "custoPorTurno": 5 },
+      { "nome": "SSJRageM", "multiplicador": 100, "custoPorTurno": 4, "maestriaNecessaria": 1 },
+      { "nome": "Vingador", "multiplicador": 250.0, "custoPorTurno": 20, "maestriaNecessaria": 2 }
+    ]
+  },
+  {
+    "nome": "Caminho Conspiracionista",
+    "subFormas": [
+      { "nome": "Divino SSJ", "multiplicador": 15, "custoPorTurno": 1 },
+      { "nome": "SSJR", "multiplicador": 175, "custoPorTurno": 15, "maestriaNecessaria": 1 },
+      { "nome": "SSJR2", "multiplicador": 250.0, "custoPorTurno": 25, "maestriaNecessaria": 2 },
+      { "nome": "SSJW", "multiplicador": 300.0, "custoPorTurno": 30, "maestriaNecessaria": 3 },
+      { "nome": "SSJR3", "multiplicador": 375.0, "custoPorTurno": 40, "maestriaNecessaria": 4 }
+    ]
+  },
+  {
+    "nome": "Awakened",
+    "subFormas": [
+      { "nome": "Awakened", "multiplicador": 10.0, "custoPorTurno": 1 },
+      { "nome": "Ascended Awaken", "multiplicador": 15.0, "custoPorTurno": 2, "maestriaNecessaria": 1}
+    ]
+  },
+  {
+    "nome": "Full Awakened",
+    "subFormas": [
+      { "nome": "Potencial Latente", "multiplicador": 20.0, "custoPorTurno": 2 }
+    ]
+  },
+  {
+    "nome": "Super Namekuseijin",
+    "subFormas": [
+      { "nome": "Super Namek", "multiplicador": 30.0, "custoPorTurno": 3 }
+    ]
+  },
+  {
+    "nome": "Namekuseijin Acendido",
+    "subFormas": [
+      { "nome": "Acendido", "multiplicador": 75.0, "custoPorTurno": 6 }
+    ]
+  },
+  {
+    "nome": "Namekuseijin Laranja",
+    "subFormas": [
+      { "nome": "Laranja", "multiplicador": 250.0, "custoPorTurno": 25 }
+    ]
+  },
+  {
+    "nome": "Super 1",
+    "subFormas": [
+      { "nome": "Super", "multiplicador": 10.0, "custoPorTurno": 1 }
+    ]
+  },
+  {
+    "nome": "Hildergarn",
+    "subFormas": [
+      { "nome": "Super", "multiplicador": 22.5, "custoPorTurno": 2 }
+    ]
+  },
+  {
+    "nome": "Super 2",
+    "subFormas": [
+      { "nome": "Super 2", "multiplicador": 50.0, "custoPorTurno": 4 }
+    ]
+  },
+  {
+    "nome": "Corrupção Dourada",
+    "subFormas": [
+      { "nome": "F-Oozaru", "multiplicador": 100.0, "custoPorTurno": 7 },
+      { "nome": "F-Sayajin", "multiplicador": 150.0, "custoPorTurno": 10, "maestriaNecessaria": 1 }
+    ]
+  },
+  {
+    "nome": "Super 3",
+    "subFormas": [
+      { "nome": "Super 3", "multiplicador": 225.0, "custoPorTurno": 25 }
+    ]
+  },
+  {
+    "nome": "Majin Divino",
+    "subFormas": [
+      { "nome": "Divino", "multiplicador": 275.0, "custoPorTurno": 35 }
+    ]
+  },
+  {
+    "nome": "Demonio Gelido",
+    "subFormas": [
+      { "nome": "1ª Forma", "multiplicador": 1.0, "custoPorTurno": 0 },
+      { "nome": "2ª Forma", "multiplicador": 4.0, "custoPorTurno": 0, "maestriaNecessaria": 1 },
+      { "nome": "3ª Forma", "multiplicador": 8.0, "custoPorTurno": 0, "maestriaNecessaria": 2 },
+      { "nome": "Forma Final", "multiplicador": 20.0, "custoPorTurno": 0, "maestriaNecessaria": 3 },
+      { "nome": "Poder Total", "multiplicador": 50.0, "custoPorTurno": 1, "maestriaNecessaria": 4 }
+    ]
+  },
+  {
+    "nome": "Demonio Divino",
+    "subFormas": [
+      { "nome": "Dourado (Suprimido)", "multiplicador": 75.0, "custoPorTurno": 5 },
+      { "nome": "Dourado", "multiplicador": 125.0, "custoPorTurno": 8, "maestriaNecessaria": 1 },
+      { "nome": "Dourado (100%)", "multiplicador": 175.0, "custoPorTurno": 12, "maestriaNecessaria": 2 }
+    ]
+  },
+  {
+    "nome": "Demonio cósmico",
+    "subFormas": [
+      { "nome": "Cósmico (Suprimido)", "multiplicador": 200.0, "custoPorTurno": 18 },
+      { "nome": "Cósmico", "multiplicador": 250.0, "custoPorTurno": 22, "maestriaNecessaria": 1 },
+      { "nome": "Cósmico (100%)", "multiplicador": 350.0, "custoPorTurno": 30, "maestriaNecessaria": 2 }
+    ]
+  },
+  {
+    "nome": "Ki Unlock",
+    "subFormas": [
+      { "nome": "Ki Unlock", "multiplicador": 10.0, "custoPorTurno": 1 }
+    ]
+  },
+  {
+    "nome": "Ki de alta eficiência",
+    "subFormas": [
+      { "nome": "Ki HI", "multiplicador": 20.0, "custoPorTurno": 1 }
+    ]
+  },
+  {
+    "nome": "Androide Aprimorado",
+    "subFormas": [
+      { "nome": "MK1", "multiplicador": 30.0, "custoPorTurno": 1 },
+      { "nome": "MK2", "multiplicador": 50.0, "custoPorTurno": 1 },
+      { "nome": "MK3", "multiplicador": 70.0, "custoPorTurno": 1 }
+    ]
+  },
+  {
+    "nome": "Super Androide",
+    "subFormas": [
+      { "nome": "Super 26", "multiplicador": 100.0, "custoPorTurno": 1 }
+    ]
+  },
+  {
+    "nome": "Ultra Androide",
+    "subFormas": [
+      { "nome": "Ultra 26", "multiplicador": 150.0, "custoPorTurno": 1 }
+    ]
+  },
+  {
+    "nome": "Androide Ω",
+    "subFormas": [
+      { "nome": "Ω", "multiplicador": 200.0, "custoPorTurno": 1 }
+    ]
+  }
+]

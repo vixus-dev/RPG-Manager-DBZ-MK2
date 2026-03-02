@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Kaioken",
+    "graus": [
+      { "nome": "Kaioken x1", "multiplicador": 1.5, "custoPorTurno": 1 },
+      { "nome": "Kaioken x2", "multiplicador": 2.0, "custoPorTurno": 1 },
+      { "nome": "Kaioken x3", "multiplicador": 3.0, "custoPorTurno": 1 },
+      { "nome": "Kaioken x4", "multiplicador": 4.0, "custoPorTurno": 1 },
+      { "nome": "Kaioken x5", "multiplicador": 5.0, "custoPorTurno": 2 },
+      { "nome": "Kaioken x6", "multiplicador": 6.0, "custoPorTurno": 2, "maestriaNecessaria": 1 },
+      { "nome": "Kaioken x7", "multiplicador": 7.0, "custoPorTurno": 2, "maestriaNecessaria": 1 },
+      { "nome": "Kaioken x8", "multiplicador": 8.0, "custoPorTurno": 2, "maestriaNecessaria": 1 },
+      { "nome": "Kaioken x9", "multiplicador": 9.0, "custoPorTurno": 2, "maestriaNecessaria": 1 },
+      { "nome": "Kaioken x10", "multiplicador": 10.0, "custoPorTurno": 3, "maestriaNecessaria": 1 },
+      { "nome": "Kaioken x11", "multiplicador": 11.0, "custoPorTurno": 3, "maestriaNecessaria": 2 },
+      { "nome": "Kaioken x12", "multiplicador": 12.0, "custoPorTurno": 3, "maestriaNecessaria": 2 },
+      { "nome": "Kaioken x13", "multiplicador": 13.0, "custoPorTurno": 3, "maestriaNecessaria": 2 },
+      { "nome": "Kaioken x14", "multiplicador": 14.0, "custoPorTurno": 3, "maestriaNecessaria": 2 },
+      { "nome": "Kaioken x15", "multiplicador": 15.0, "custoPorTurno": 4, "maestriaNecessaria": 2 },
+      { "nome": "Kaioken x16", "multiplicador": 16.0, "custoPorTurno": 4, "maestriaNecessaria": 3 },
+      { "nome": "Kaioken x17", "multiplicador": 17.0, "custoPorTurno": 4, "maestriaNecessaria": 3 },
+      { "nome": "Kaioken x18", "multiplicador": 18.0, "custoPorTurno": 4, "maestriaNecessaria": 3 },
+      { "nome": "Kaioken x19", "multiplicador": 19.0, "custoPorTurno": 4, "maestriaNecessaria": 3 },
+      { "nome": "Kaioken x20", "multiplicador": 20.0, "custoPorTurno": 5, "maestriaNecessaria": 3 }
+    ]
+  },
+  {
+    "nome": "Oozaru",
+    "graus": [
+      { "nome": "Padrão", "multiplicador": 5, "custoPorTurno": 0, "maestriaNecessaria": 0 }
+    ]
+  },
+  {
+    "nome": "Super Lee",
+    "graus": [
+      { "nome": "1 Esfera", "multiplicador": 5, "custoPorTurno": 0, "maestriaNecessaria": 0 },
+      { "nome": "2 Esferas", "multiplicador": 10, "custoPorTurno": 0, "maestriaNecessaria": 0 },
+      { "nome": "3 Esferas", "multiplicador": 20, "custoPorTurno": 0, "maestriaNecessaria": 1 },
+      { "nome": "4 Esferas", "multiplicador": 30, "custoPorTurno": 0, "maestriaNecessaria": 1 },
+      { "nome": "5 Esferas", "multiplicador": 40, "custoPorTurno": 0, "maestriaNecessaria": 2 },
+      { "nome": "6 Esferas", "multiplicador": 50, "custoPorTurno": 0, "maestriaNecessaria": 2 },
+      { "nome": "Omni", "multiplicador": 60, "custoPorTurno": 0, "maestriaNecessaria": 3 }
+    ]
+  },
+  {
+    "nome": "Ki Release",
+    "graus": [
+      { "nome": "Aura", "multiplicador": 1.3, "custoPorTurno": 1, "maestriaNecessaria": 0 },
+      { "nome": "Aura V2", "multiplicador": 1.5, "custoPorTurno": 1, "maestriaNecessaria": 1 },
+      { "nome": "Aura V3", "multiplicador": 1.8, "custoPorTurno": 1, "maestriaNecessaria": 2 },
+      { "nome": "Super Aura", "multiplicador": 2, "custoPorTurno": 1, "maestriaNecessaria": 3 }
+    ]
+  },
+  {
+    "nome": "Esperança do futuro",
+    "graus": [
+      { "nome": "Ressonância de KI", "multiplicador": 5, "custoPorTurno": 1},
+      { "nome": "Ki Robusto", "multiplicador": 10, "custoPorTurno": 2},
+      { "nome": "Ki Escarlate", "multiplicador": 15, "custoPorTurno": 3},
+      { "nome": "Força total!", "multiplicador": 20, "custoPorTurno": 4}
+    ]
+  },
+  {
+    "nome": "Sparkling",
+    "graus": [
+      { "nome": "Aura", "multiplicador": 1.5, "custoPorTurno": 1, "maestriaNecessaria": 0 }
+    ]
+  },
+  {
+    "nome": "Absorção Androide",
+    "graus": [
+      { "nome": "Absorção 1", "multiplicador": 20, "custoPorTurno": 1, "maestriaNecessaria": 0 },
+      { "nome": "Absorção 2", "multiplicador": 50, "custoPorTurno": 1, "maestriaNecessaria": 1 },
+      { "nome": "Semi Perfeito", "multiplicador": 75, "custoPorTurno": 1, "maestriaNecessaria": 2 },
+      { "nome": "Perfeito", "multiplicador": 100, "custoPorTurno": 1, "maestriaNecessaria": 3 }
+    ]
+  }
+
+]

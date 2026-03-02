@@ -1,0 +1,23 @@
+Cultistas;1000;50;100;500;10
+Namekuseijin (Corrompido);4000;80;90;1000;0
+
+Soldados de Freeza;20000;200;200;5000;10
+
+Namekuseijin;400;30;20;50;1
+Soldado Namekuseijin;1200;40;50;500;10
+
+Boter;400000;1000;1200;7500;20
+Yuz;400000;1000;1200;7500;20
+
+Capitão Ginyu;750000;1500;1000;12500;100
+Goku (Capitão Ginyu);750000;15000;2000;15000;100
+
+Freeza (1ª Forma);1000000;2000;1000;20000;10
+Freeza (2ª Forma);2000000;2500;1200;20000;10
+Freeza (3ª Forma);2500000;3000;1500;20000;10
+Freeza (4ª Forma);5000000;4000;2000;20000;10
+Freeza (Poder Total);10000000;2500;5000;20000;10
+
+Caleb (Suprimido);20000000;100000;1000000;500000;8000
+
+"Poder da Esfera"

@@ -1,0 +1,286 @@
+{
+  "jogadores": [
+    {
+      "nome": "Mirai Trunks",
+      "hpBase": 74250,
+      "atkBase": 2050,
+      "energiaBase": 60000,
+      "velocidadeBase": 3000,
+      "formaPontosBase": 500,
+      "dados": [
+        "d10",
+        "d10",
+        "d10",
+        "d10",
+        "d10"
+      ],
+      "nomesTransformacoes": [
+        "Super Sayajin"
+      ],
+      "nomesAmpliacoes": [
+        "Esperança do futuro",
+        "Ki Release"
+      ],
+      "nomesTecnicas": [
+        "Soco V2",
+        "Espada do Futuro",
+        "Arremesso",
+        "Ki Blast V2",
+        "Grande Rajada de KI",
+        "Zona Explosiva",
+        "Voleio Rápido",
+        "Galick gun",
+        "Final Flash",
+        "Sword of Hope",
+        "Chama Maligna"
+      ],
+      "inventario": {
+        "Cápsula de HP Pequena": 1,
+        "Cápsula de HP Média": 1,
+        "Cápsula de HP Grande": 1,
+        "Cápsula de Energia Pequena": 1,
+        "Cápsula de Energia Média": 2,
+        "Cápsula de Energia Grande": 1,
+        "Cápsula de Forma Pequena": 1,
+        "Cápsula de Forma Média": 1,
+        "Cápsula de Forma Grande": 20,
+        "Cápsula Mix Média": 5,
+        "Cápsula Mix Grande": 5,
+        "Cápsula Mix Pequena": 14
+      },
+      "maestriaFormas": {
+        "Super Sayajin": 3,
+        "Ki Release": 3
+      },
+      "regeneracaoPassiva": 0.0,
+      "isAndroide": false,
+      "formaIlimitada": false
+    },
+    {
+      "nome": "Yamaji",
+      "hpBase": 66000,
+      "atkBase": 2220,
+      "energiaBase": 36600,
+      "velocidadeBase": 5400,
+      "formaPontosBase": 480,
+      "dados": [
+        "d1",
+        "d10",
+        "d1",
+        "d20",
+        "d10"
+      ],
+      "nomesTransformacoes": [
+        "Super Sayajin",
+        "Super Sayajin 2"
+      ],
+      "nomesAmpliacoes": [
+        "Kaioken",
+        "Ki Release"
+      ],
+      "nomesTecnicas": [
+        "Impacto Estelar",
+        "Soco V3",
+        "Ki Blast V2",
+        "Arremesso",
+        "Perseguição em Super Velocidade",
+        "Galick gun",
+        "Canhão da Morte",
+        "Novo Kikouhou",
+        "Lâminas da Justiça",
+        "Soco com Hamon",
+        "Itens médios",
+        "Kienzan",
+        "Final Flash",
+        "Iluminação Cósmica",
+        "Mafuba",
+        "Explosão Final",
+        "Teletransporte"
+      ],
+      "inventario": {
+        "Cápsula de HP Grande": 10,
+        "Cápsula de Forma Pequena": 1,
+        "Cápsula de Forma Média": 1,
+        "Cápsula de Forma Grande": 2,
+        "Cápsula de Forma Suprema": 1,
+        "Cápsula Sonora Média": 4,
+        "Cápsula Mix Média": 30,
+        "Cápsula de Energia Média": 12,
+        "Cápsula de Energia Pequena": 3
+      },
+      "maestriaFormas": {
+        "Kaioken": 3,
+        "Super Sayajin": 3
+      },
+      "regeneracaoPassiva": 0.00,
+      "isAndroide": false,
+      "formaIlimitada": false
+    },
+    {
+      "nome": "Androide 26",
+      "hpBase": 42000,
+      "atkBase": 1500,
+      "energiaBase": -1,
+      "velocidadeBase": 3600,
+      "formaPontosBase": -1,
+      "dados": [
+        "d2",
+        "d9",
+        "d5",
+        "d15",
+        "d6"
+      ],
+      "nomesTransformacoes": [
+        "Ki Unlock",
+        "Ki de alta eficiência"
+      ],
+      "nomesAmpliacoes": [
+        "Kaioken",
+        "Ki Release"
+      ],
+      "nomesTecnicas": [
+        "Ataque de Moto",
+        "Soco V2",
+        "Arremesso",
+        "Agarrar",
+        "Ki Blast",
+        "Moto com KI",
+        "Omega Blaster",
+        "Novo Kikouhou",
+        "Perseguição em Hiper Velocidade",
+        "Duplo Tsuihikidan",
+        "S.Kamehameha",
+        "Esfera Mortal",
+        "Ataque Big Bang",
+        "Makankosappo",
+        "Teletransporte"
+      ],
+      "inventario": {
+        "Cápsula de HP Pequena": 5,
+        "Cápsula de HP Grande": 5,
+        "Cápsula de HP Suprema": 3,
+        "Cápsula de Forma Pequena": 6,
+        "Cápsula de Forma Suprema": 4,
+        "Cápsula Mix Média": 30,
+        "Semente dos Deuses": 2,
+        "Cápsula de Forma Média": 3,
+        "Cápsula de Forma Grande": 3,
+        "Cápsula de HP Média": 3
+      },
+      "maestriaFormas": {
+        "Kaioken": 2
+      },
+      "regeneracaoPassiva": 0.00,
+      "isAndroide": true,
+      "formaIlimitada": true
+    },
+    {
+      "nome": "Majin Lee",
+      "hpBase": 4522000,
+      "atkBase": 1800,
+      "energiaBase": 30600,
+      "velocidadeBase": 3600,
+      "formaPontosBase": 300,
+      "dados": [
+        "d4",
+        "d6",
+        "d5",
+        "d18",
+        "d6"
+      ],
+      "nomesTransformacoes": [
+        "Super 1",
+        "Hildergarn"
+      ],
+      "nomesAmpliacoes": [
+        "Kaioken",
+        "Super Lee",
+        "Ki Release"
+      ],
+      "nomesTecnicas": [
+        "Soco V2",
+        "Arremesso",
+        "Ki Blast",
+        "Quebra ossos",
+        "Grande Rajada de KI",
+        "Duplo Tsuihikidan",
+        "Galick gun",
+        "Makankosappo",
+        "Teletransporte",
+        "Transformar em doce"
+      ],
+      "inventario": {
+        "Cápsula de HP Pequena": 2,
+        "Cápsula de HP Grande": 3,
+        "Cápsula de HP Suprema": 1,
+        "Cápsula de Forma Pequena": 3,
+        "Cápsula de Forma Suprema": 2,
+        "Cápsula Mix Média": 30,
+        "Semente dos Deuses": 1
+      },
+      "maestriaFormas": {
+        "Kaioken": 2
+      },
+      "regeneracaoPassiva": 0.075,
+      "isAndroide": false,
+      "formaIlimitada": false
+    },
+    {
+      "nome": "Niggolo",
+      "hpBase": 50700,
+      "atkBase": 2220,
+      "energiaBase": 57000,
+      "velocidadeBase": 5100,
+      "formaPontosBase": 360,
+      "dados": [
+        "d5",
+        "d6",
+        "d6",
+        "d13",
+        "d5"
+      ],
+      "nomesTransformacoes": [
+        "Awakened",
+        "Full Awakened"
+      ],
+      "nomesAmpliacoes": [
+        "Kaioken",
+        "Ki Release"
+      ],
+      "nomesTecnicas": [
+        "Soco V2",
+        "Arremesso",
+        "Perseguição em Super Velocidade",
+        "Ki Blast",
+        "Contra Ataque",
+        "Olho do Demônio",
+        "Novo Kikouhou",
+        "Lâminas da Justiça",
+        "Chama Maligna",
+        "Genki-Dama",
+        "Planet Burst",
+        "Esfera Mortal de Rancor",
+        "Makankosappo",
+        "Sacrifício Sísmico"
+      ],
+      "inventario": {
+        "Cápsula de HP Grande": 4,
+        "Cápsula de Forma Pequena": 1,
+        "Cápsula de Forma Média": 1,
+        "Cápsula de Forma Grande": 2,
+        "Cápsula de Forma Suprema": 1,
+        "Cápsula Sonora Média": 4,
+        "Cápsula Mix Média": 30,
+        "Cápsula de Energia Grande": 6
+      },
+      "maestriaFormas": {
+        "Kaioken": 2,
+        "Awakened": 1
+      },
+      "regeneracaoPassiva": 0.04,
+      "isAndroide": false,
+      "formaIlimitada": false
+    }
+  ],
+  "inimigos": []
+}

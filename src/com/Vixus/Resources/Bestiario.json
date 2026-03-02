@@ -1,0 +1,55 @@
+[
+  {
+    "nome": "Cell Jr.",
+    "hpBase": 1200000000,
+    "atkBase": 50000,
+    "energiaBase": 20000,
+    "velocidadeBase": 120000,
+    "formaPontosBase": 0,
+    "regeneracaoPassiva": 0.05,
+    "nomesTecnicas": [ "Soco Perfeito!", "Ki Blast Perfeita!", "Teletransporte Instantaneo" ]
+  },
+  {
+    "nome": "Cell Imperfeito",
+    "hpBase": 750000000,
+    "atkBase": 25000,
+    "energiaBase": 20000,
+    "velocidadeBase": 120000,
+    "formaPontosBase": 0,
+    "regeneracaoPassiva": 0.05,
+    "nomesTecnicas": [ "Soco V2", "Ki Blast V2", "Teletransporte" ]
+  },
+  {
+      "nome": "Cell (MAIS que Perfeito)",
+      "hpBase": 2000000000,
+      "atkBase": 50000,
+      "energiaBase": 1000000,
+      "velocidadeBase": 300000,
+      "formaPontosBase": 1000,
+      "nomesTransformacoes": [
+        "Super Sayajin",
+        "Super Sayajin 2"
+      ],
+      "nomesAmpliacoes": [
+        "Sparkling"
+      ],
+      "nomesTecnicas": [
+        "Soco Perfeito!",
+        "Ki Blast Perfeita!",
+        "Kiai Perfeito!",
+        "Jogo Perfeito!",
+        "Pancada Colossal",
+        "S.Kamehameha",
+        "Final Flash",
+        "Final Kamehameha",
+        "Teletransporte Instantaneo",
+        "Campo Perfeito!"
+      ],
+      "maestriaFormas": {
+        "Super Sayajin": 3
+      },
+      "regeneracaoPassiva": 0.00
+    }
+  ]
+
+  

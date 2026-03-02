@@ -1,0 +1,119 @@
+[
+    {
+        "nome": "Cápsula de HP Pequena",
+        "descricao": "Recupera 10% do HP máximo.",
+        "tipoEfeito": "HP",
+        "valor": "0.10"
+    },
+    {
+        "nome": "Cápsula de HP Média",
+        "descricao": "Recupera 25% do HP máximo.",
+        "tipoEfeito": "HP",
+        "valor": "0.25"
+    },
+    {
+        "nome": "Cápsula de HP Grande",
+        "descricao": "Recupera 50% do HP máximo.",
+        "tipoEfeito": "HP",
+        "valor": "0.50"
+    },
+    {
+        "nome": "Cápsula de HP Suprema",
+        "descricao": "Recupera 100% do HP máximo.",
+        "tipoEfeito": "HP",
+        "valor": "1.00"
+    },
+
+    {
+      "nome": "Cápsula de Energia Pequena",
+      "descricao": "Recupera 10% da energia máxima ou bateria.",
+      "tipoEfeito": "Energia/Bateria",
+      "valor": "0.10"
+    },
+    {
+        "nome": "Cápsula de Energia Média",
+        "descricao": "Recupera 25% da energia máxima ou bateria.",
+        "tipoEfeito": "Energia/Bateria",
+        "valor": "0.25"
+    },
+    {
+        "nome": "Cápsula de Energia Grande",
+        "descricao": "Recupera 50% da energia máxima ou bateria.",
+        "tipoEfeito": "Energia/Bateria",
+        "valor": "0.50"
+    },
+    {
+        "nome": "Cápsula de Energia Suprema",
+        "descricao": "Recupera 100% da energia máxima ou bateria.",
+        "tipoEfeito": "Energia/Bateria",
+        "valor": "1.00"
+    },
+    
+    {
+      "nome": "Cápsula de Forma Pequena",
+      "descricao": "Recupera 10 Pontos de Forma.",
+      "tipoEfeito": "Pontos de Forma",
+      "valor": "10"
+    },
+    {
+        "nome": "Cápsula de Forma Média",
+        "descricao": "Recupera 25 Pontos de Forma.",
+        "tipoEfeito": "Pontos de Forma",
+        "valor": "25"
+    },
+      {
+        "nome": "Cápsula de Forma Grande",
+        "descricao": "Recupera 50 Pontos de Forma.",
+        "tipoEfeito": "Pontos de Forma",
+        "valor": "50"
+    },
+    {
+        "nome": "Cápsula de Forma Suprema",
+        "descricao": "Recupera 100 Pontos de Forma.",
+        "tipoEfeito": "Pontos de Forma",
+        "valor": "100"
+    },
+
+    {
+        "nome": "Cápsula Sonora Pequena",
+        "descricao": "Recupera 20% do HP máximo ao longo de 2 turnos.",
+        "tipoEfeito": "HP_Ao_Longo_Do_Tempo",
+        "valor": "0.20;2"
+    },
+    {
+        "nome": "Cápsula Sonora Média",
+        "descricao": "Recupera 40% do HP máximo ao longo de 2 turnos.",
+        "tipoEfeito": "HP_Ao_Longo_Do_Tempo",
+        "valor": "0.40;2"
+    },
+    {
+        "nome": "Cápsula Sonora Grande",
+        "descricao": "Recupera 60% do HP máximo ao longo de 2 turnos.",
+        "tipoEfeito": "HP_Ao_Longo_Do_Tempo",
+        "valor": "0.60;2"
+    },   
+    {
+        "nome": "Cápsula Mix Pequena",
+        "descricao": "Recupera 20% do HP e da energia máxima.",
+        "tipoEfeito": "Mix",
+        "valor": "0.20"
+    },
+    {
+        "nome": "Cápsula Mix Média",
+        "descricao": "Recupera 40% do HP e da energia máxima.",
+        "tipoEfeito": "Mix",
+        "valor": "0.40"
+    },
+    {
+        "nome": "Cápsula Mix Grande",
+        "descricao": "Recupera 60% do HP e da energia máxima.",
+        "tipoEfeito": "Mix",
+        "valor": "0.60"
+    },   
+    {
+      "nome": "Semente dos Deuses",
+      "descricao": "Recupera todas as forças.",
+      "tipoEfeito": "Restauração Total",
+      "valor": "1.0"
+    }
+  ]
